@@ -26,7 +26,7 @@ function MyVerticallyCenteredModal(props) {
       <Modal.Body>
         <p>
 
-          Greetings 🌟. I am pleased to inform you that I have successfully executed the assigned task. Within my submissions, you will find two distinct implementations: the first, a precise replica meticulously crafted as per your instructions on that designated page 📃, and the second, an innovative design conceived by my own ingenuity. Should you wish to witness the fruits of my labor, I invite you to follow this link<a href="https://dribble-clone2-0.vercel.app/" class="text-decoration-none">🔗</a>, where my creations await your appraisal.
+          Greetings 🌟. I am pleased to inform you that I have successfully executed the assigned task. Within my submissions, you will find two distinct implementations: the first, a precise replica meticulously crafted as per your instructions on that designated page 📃, and the second, an innovative design conceived by my own ingenuity. Should you wish to witness the fruits of my labor, I invite you to follow this <a href="https://dribble-clone2-0.vercel.app/" class="text-decoration-none">Link🔗</a>, where my creations await your appraisal.
         </p>
       </Modal.Body>
     </Modal>
