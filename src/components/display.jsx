@@ -20,13 +20,12 @@ function MyVerticallyCenteredModal(props) {
       <Modal.Header closeButton>
         <Modal.Title id="contained-modal-title-vcenter">
 
-          Hello, soldiers! 🪖
+          Hello, Developer🫡
         </Modal.Title>
       </Modal.Header>
       <Modal.Body>
         <p>
-
-          Greetings 🌟. I am pleased to inform you that I have successfully executed the assigned task. Within my submissions, you will find two distinct implementations: the first, a precise replica meticulously crafted as per your instructions on that designated page 📃, and the second, an innovative design conceived by my own ingenuity. Should you wish to witness the fruits of my labor, I invite you to follow this <a href="https://dribble-clone2-0.vercel.app/" class="text-decoration-none">Link🔗</a>, where my creations await your appraisal.
+          I finished the task you gave me. I made two versions. The first one is exactly like you asked on the specific page 📃. The second one is my own creative idea. If you want to see what I did, click on this <a href="https://dribble-clone2-0.vercel.app/" class="text-decoration-none">Link🔗</a>. Check it out and let me know what you think!
         </p>
       </Modal.Body>
     </Modal>
@@ -116,12 +115,9 @@ function Display() {
   const handleSearchChange = (e) => {
     const value = e.target.value.toLowerCase();
     setSearchTerm(value);
-
-    // Filter suggestions based on the entered letters
     const filteredSuggestions = animals
       .filter((animal) => animal.label.toLowerCase().includes(value))
-      .slice(0, 4); // Limit suggestions to 4 elements
-
+      .slice(0, 4); 
     setSuggestions(filteredSuggestions);
   };
 
@@ -382,7 +378,7 @@ function Display() {
         </div>
       )}
 
-      <div className="text-center" onClick={()=>setModalShow(true)}>
+      <div className="text-center" onClick={() => setModalShow(true)}>
         <button className="btn btn-primary mb-5" >
           Please Read Me 📃
         </button>
