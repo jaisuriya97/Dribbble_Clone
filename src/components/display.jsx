@@ -52,9 +52,7 @@ function Display() {
     return storedLikes ? JSON.parse(storedLikes) : {};
   });
   const [selectedPhoto, setSelectedPhoto] = useState(null);
-  useEffect(() => {
-    setModalShow(true)
-  }, []);
+
   useEffect(() => {
     const fetchPhotos = async () => {
       let url;
@@ -384,9 +382,9 @@ function Display() {
         </div>
       )}
 
-      <div className="text-center">
-        <button className="btn btn-primary mb-5" onClick={handleLoadMore}>
-          Load More
+      <div className="text-center" onClick={()=>setModalShow(true)}>
+        <button className="btn btn-primary mb-5" >
+          Please Read Me 📃
         </button>
       </div>
     </div>
