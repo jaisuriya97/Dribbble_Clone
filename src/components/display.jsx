@@ -270,7 +270,7 @@ function Display() {
                   onClick={handleSearchSubmit}
                   type="button"
                 >
-                  Search
+                  Please Type and  Press me
                 </button>
               </div>
             </div>
