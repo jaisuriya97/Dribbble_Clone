@@ -27,20 +27,20 @@ public
 scr
   ├── Components
   |     │   
-  |     └── data.js
+  |     ├── data.js
   |     │   
-  |     └── display.jsx
+  |     ├── display.jsx
   |     │   
-  |     └── footer.jsx
+  |     ├── footer.jsx
   |     │   
-  |     └── heropage.jsx
+  |     ├── heropage.jsx
   |     │   
   |     └── navbar.jsx
   |
   │   
-  └── App.css
+  ├── App.css
   │   
-  └── App.js
+  ├── App.js
   │   
   └── index.js
 package-lock.json
