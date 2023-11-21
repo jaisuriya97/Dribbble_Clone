@@ -46,3 +46,12 @@ scr
 package-lock.json
 package.json
 ```
+## 📷 Screen short
+>![image](https://github.com/jaisuriya97/Dribbble_Clone/assets/80122325/94681884-16d1-4d29-a6de-01df431a84f4)
+>![image](https://github.com/jaisuriya97/Dribbble_Clone/assets/80122325/487f3d19-596a-48f8-95f8-21b2e154935c)
+
+## 🤝Contributing
+
+If you'd like to contribute to this project, feel free to fork the repository and submit a pull request. You can also open issues for bug reports or feature requests.
+
+## Thank You ☠
