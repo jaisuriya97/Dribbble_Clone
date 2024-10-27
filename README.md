@@ -1,11 +1,6 @@
 # Read me ⚠️
 ## Greetings 💐
 
-
-# Dribble Clone
->[!NOTE]
-> ### This project is a output of Task round from the presidio
-
 ## ✨Features
 - User can  Search the images
 - user can give like to the images
